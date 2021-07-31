@@ -19,3 +19,6 @@ script:
    bucket_path:"DockerFrontend"
    on:
     branch:master
+  access_key_id:$AWS_ACCESS_kEY_ID
+  secrete_access_key:
+    secure:"$AWS_SECRETE_ ACCESS_KEY"
